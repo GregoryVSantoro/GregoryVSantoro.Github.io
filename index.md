@@ -2,7 +2,7 @@
 
 ---
 
-### Learn About My Projects
+### Projects
 
 ---
 #### [Marketing Project](https://www.linkedin.com/pulse/delivery-app-marketing-analysis-gregory-santoro/)
