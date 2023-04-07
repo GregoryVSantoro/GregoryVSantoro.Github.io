@@ -5,6 +5,9 @@
 ### Projects
 
 ---
+#### [Education Project](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
+
+---
 #### [Marketing Project](https://www.linkedin.com/pulse/delivery-app-marketing-analysis-gregory-santoro/)
 [<img src="images/Delivery-App-Analysis_Image_Gregory-Santoro_2 .png?raw=true"/>](https://www.linkedin.com/pulse/delivery-app-marketing-analysis-gregory-santoro/)
 
