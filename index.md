@@ -6,7 +6,7 @@
 
 ---
 #### [Visualizing Massachusetts Education Data](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
-[<img src="images/gvs_school_classroom_photorealistic_with_statistics_and_graphs__83717578-fe4f-4275-af09-287e58db2fb9.png?raw=true"/>](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
+[<img src="images/Presentation1.png?raw=true"/>](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
 
 ---
 #### [Marketing Project](https://www.linkedin.com/pulse/delivery-app-marketing-analysis-gregory-santoro/)
