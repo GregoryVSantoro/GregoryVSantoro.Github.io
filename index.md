@@ -5,8 +5,8 @@
 ### Projects
 
 ---
-#### [Internal Blog Post Project](/bank)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+#### [Exploring World Bank Loans with SQL](/bank)
+<img src=“images/beginner sql project cover image.png?raw=true”/>
 
 ---
 #### [Visualizing Massachusetts Education Data](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
