@@ -5,6 +5,10 @@
 ### Projects
 
 ---
+#### [Internal Blog Post Project](/bank)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
 #### [Visualizing Massachusetts Education Data](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
 [<img src="images/Presentation1.png?raw=true"/>](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
 
