@@ -4,7 +4,7 @@
 ---
 
 ### Introduction
-I wanted to practice my SQL commands on a real-world dataset. The World Banks International Development Association (IDA) historical statement of credits and grants dataset provided me the perfect opportunity. By analyzing this dataset with SQL, I can gain insights into the distribution of loans across different countries and sectors. 
+I wanted to practice SQL commands on a real-world dataset. The World Banks International Development Association (IDA) historical statement of credits and grants dataset provided me the perfect opportunity. By analyzing this dataset with SQL, I can gain insights into the distribution of loans across different countries and sectors. 
 
 ### Key Insights
 
