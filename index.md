@@ -8,6 +8,8 @@
 #### [Exploring World Bank Loans with SQL](/bank)
 ![SQL Cover Image](images/beginner_sql_project_cover_image.jpg?raw=true)
 
+Describing how I used SQL commands to analyze the IDA dataset, which provides information on loans, grants, and guarantees provided by the IDA to member countries. Sharing several key insights, including the total number of transactions, loans issued to Nicaragua, the largest transaction recorded, and the average interest rate for loans issued. All to demonstrate that SQL is a powerful tool for extracting insights from large datasets.
+
 ---
 #### [Visualizing Massachusetts Education Data](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
 [<img src="images/Presentation1.png?raw=true"/>](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
