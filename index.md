@@ -6,7 +6,7 @@
 
 ---
 #### [Exploring World Bank Loans with SQL](/bank)
-[<img src=“images/beginner_sql_project_cover_image.jpg?raw=true"/>]
+![SQL Cover Image](images/beginner_sql_project_cover_image.jpg?raw=true)
 
 ---
 #### [Visualizing Massachusetts Education Data](https://www.linkedin.com/pulse/visualizing-massachusetts-education-data-gregory-santoro/)
