@@ -1,6 +1,6 @@
 # SQL Exploration of a Healthcare Data Set
 
-![SQL Cover Image](images/images/sql-2_cover-image_module_5.jpg)
+![SQL Cover Image](images/sql-2_cover-image_module_5.jpg)
 ---
 
 ### Introduction
