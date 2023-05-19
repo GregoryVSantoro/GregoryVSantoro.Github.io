@@ -23,7 +23,7 @@ This data set used for this project contains two tables. One contains patient de
 Starting out I want to know how many transactions are present in the dataset.  A typical SQL command will start with `SELECT`. This extracts the data from a database. Following `SELECT` I'm going to use `COUNT(_)` and `*`. `COUNT(_)` command returns the number of rows that matches the specified criterion within the parantheses. `*` is a wildcard that represents the names of all the columns in the table.
 
 <p align="center">
-  <img src="/images/3.png" alt="SELECT COUNT(*)">
+  <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
    <img src="/images/4-SQLResult_COUNT.png" alt="SELECT COUNT(*) SQL result">
 </p>
 
