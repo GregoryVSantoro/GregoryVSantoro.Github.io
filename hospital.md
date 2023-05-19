@@ -24,7 +24,7 @@ Starting out I want to know how many transactions are present in the dataset.  A
 
 <p align="center">
   <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
-  <img src="/images/sql_histogram_reuslt.png" alt="sql made histogram">
+  <img src="/images/sql_histogram_result.png" alt="sql made histogram">
 </p>
 
 If I wanted to know the breakdown of how many loans each country has, I'd want to include a `WHERE` clause to be able to filter by a specific criterion.  I'll choose to look at Nicaragua.  Instead of `COUNT(*)`, I used the column `due_to_ida`.  If I had used `*` then we would get the same result.  This works because SQL tables are all the same shape, rectangular, meaning all columns have the same number of rows.
