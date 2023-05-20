@@ -21,7 +21,7 @@ This data set used for this project contains two tables. One contains patient de
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find the average stay of a patient. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay.
 
 <p align="center">
-  <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
+  <img src="images/1_mod5_histogram_sql.png" alt="histogram SQL code snippet">
 </p>
 
 | bucket | count | bar                                                                               |
