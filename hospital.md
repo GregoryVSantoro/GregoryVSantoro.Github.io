@@ -20,7 +20,6 @@ This data set used for this project contains two tables. One contains patient de
 ## Analysis
 
 <br/><br/>
----
 
 ### Length of Patient Stay
 
@@ -50,7 +49,6 @@ A hospital can treat only as many patients as they have room for. This is typica
 | 14     | 1042  | ******** |
 
 <br/><br/>
----
 
 ### Identifying Top 5 Specialties
 
