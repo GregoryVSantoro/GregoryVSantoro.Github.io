@@ -49,7 +49,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
 
 <img src="images/2_mod5_specialties_avg_procedures.png" alt="SQL snippet to identify top 5 specialties">
-**Figure 2: SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed** 
+**Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
 
 
 **Table 3:** Resulting table from SQL snippet in Figure 2
