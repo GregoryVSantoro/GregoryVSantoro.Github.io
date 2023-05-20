@@ -24,13 +24,6 @@ A hospital can treat only as many patients as they have room for. This is typica
   <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
 </p>
 
-<style>
-  table {
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
-
 <table>
   <tr>
     <th>bucket</th>
