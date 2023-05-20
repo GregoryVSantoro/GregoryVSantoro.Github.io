@@ -22,8 +22,38 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 <p align="center">
   <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
-  <img src="images/Screenshot 2023-05-20 at 1.01.49 PM.png" alt="sql made histogram">
 </p>
+
+<style>
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>bucket</th>
+    <th>count</th>
+    <th>bar</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Data 4</td>
+    <td>Data 5</td>
+    <td>Data 6</td>
+  </tr>
+  <!-- Continue adding rows as needed -->
+  <tr>
+    <td>Data 13</td>
+    <td>Data 14</td>
+    <td>Data 15</td>
+  </tr>
+</table>
 
 under_construction
 
