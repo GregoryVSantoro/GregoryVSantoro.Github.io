@@ -1,6 +1,7 @@
 # SQL Exploration of a Healthcare Data Set
 
 ![SQL Cover Image](images/sql-2_cover-image_module_5.jpg)
+
 ---
 
 ### Introduction
@@ -43,6 +44,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 | 13     | 1210  | ********** |
 | 14     | 1042  | ******** |
 
+----
 
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
 
@@ -51,6 +53,8 @@ The next task was to determine the average number of procedures done by each med
 
 <img src="images/3_mod5_top_specialties.png" alt="top 5 medical specialties based on their high average number of procedures">
 **Figure 3:**
+
+---
 
 under_construction
 
