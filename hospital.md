@@ -4,20 +4,22 @@
 
 ---
 
-### Introduction
+## Introduction
 In this project the scenario was I have just been hired as data analyst for a hospital. I have just been given my first tasks to complete and they all revolve around the use of SQL. The specific flavor of SQL used here is MySQL.
 
-### About The Dataset
+## About The Dataset
 
 This data set used for this project contains two tables. One contains patient demographic information while the other contains all of a patients various health information. You can find the original data set [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
 
-### Key Insights
+## Key Insights
 
 - The majority of patients are discharged from the hospital in less than 7 days
 - The thoracic surgery department has the highest average number of procedures
 - There is no correlation between a patients race and the number of lab procedures performed
 
-### Analysis
+## Analysis
+
+### Determining if majority of patients stay more or less than 7 days
 
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay. Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more.
 
@@ -45,6 +47,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 | 14     | 1042  | ******** |
 
 
+### Identifying the top 5 medical specialties
 
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
 
