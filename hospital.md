@@ -21,7 +21,7 @@ This data set used for this project contains two tables. One contains patient de
 
 ---
 
-### Determining if majority of patients stay more or less than 7 days
+### Length of Patient Stay
 
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay. Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more.
 
@@ -48,10 +48,11 @@ A hospital can treat only as many patients as they have room for. This is typica
 | 13     | 1210  | ********** |
 | 14     | 1042  | ******** |
 
+<br/><br/>
 
 ---
 
-### Identifying the top 5 medical specialties
+### Identifying Top 5 Specialties
 
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
 
