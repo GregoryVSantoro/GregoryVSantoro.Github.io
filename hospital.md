@@ -22,7 +22,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 <p align="center">
   <img src="/images/1_Mod5_Histograms.png" alt="histogram SQL code snippet">
-  <img src="/images/sql_histogram_result.png" width = "800" height = "422" alt="sql made histogram">
+  <img src="/images/sql_histogram_result.png" width = "447" height = "211" alt="sql made histogram">
 </p>
 
 under_construction
