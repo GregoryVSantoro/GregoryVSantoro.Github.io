@@ -21,9 +21,10 @@ This data set used for this project contains two tables. One contains patient de
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay. Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more.
 
 <img src="images/1_mod5_histogram_sql.png" alt="histogram SQL code snippet">
-  **Figure 1: SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days**
+  **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
 
-  **Table 1: A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay**
+
+  **Table 1:** A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay
 
 |  days  | count | bar                                                                               |
 |--------|-------|-----------------------------------------------------------------------------------|
@@ -43,30 +44,13 @@ A hospital can treat only as many patients as they have room for. This is typica
 | 14     | 1042  | ******** |
 
 
-<!-- 
-<table>
-  <tr>
-    <th>bucket</th>
-    <th>count</th>
-    <th>bar</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Data 4</td>
-    <td>Data 5</td>
-    <td>Data 6</td>
-  </tr>
-  <tr>
-    <td>Data 13</td>
-    <td>Data 14</td>
-    <td>Data 15</td>
-  </tr>
-</table>
--->
+The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
+
+<img src="images/2_mod5_specialties_avg_procedures.png" alt="SQL snippet to identify top 5 specialties">
+**Figure 2:** 
+
+<img src="images/3_mod5_top_specialties.png" alt="top 5 medical specialties based on their high average number of procedures">
+**Figure 3:**
 
 under_construction
 
