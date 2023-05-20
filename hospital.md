@@ -20,10 +20,8 @@ This data set used for this project contains two tables. One contains patient de
 
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay. Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more.
 
-<p align="center">
-  <img src="images/1_mod5_histogram_sql.png" alt="histogram SQL code snippet">
-    **Figure 1: SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days**
-</p>
+<img src="images/1_mod5_histogram_sql.png" alt="histogram SQL code snippet">
+  **Figure 1: SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days**
 
   **Table 1: A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay**
 
