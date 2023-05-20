@@ -49,7 +49,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 <br/>
 ### Identifying Top 5 Specialties
 
-The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average.
+The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average. Figure 2 shows the SQL used to identify the top 5 and Table 3 is the resulting table. The clause `HAVING` is what specifically allows this query to be give us the desired information. `HAVING` is similar to the `WHERE` clause but for filtering aggregated data.
 
 <img src="images/2_mod5_specialties_avg_procedures.png" alt="SQL snippet to identify top 5 specialties">
 **Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
