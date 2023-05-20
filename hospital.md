@@ -22,10 +22,11 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 <p align="center">
   <img src="images/1_mod5_histogram_sql.png" alt="histogram SQL code snippet">
-  <sub>Figure 1: SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days</sub>
+  <sub>**Figure 1: SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days**</sub>
 </p>
 
-<sub>Table 1: A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay</sub>
+
+<sub>**Table 1: A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay**</sub>
 
 |  days  | count | bar                                                                               |
 |--------|-------|-----------------------------------------------------------------------------------|
