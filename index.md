@@ -5,8 +5,8 @@
 ### Projects
 
 ---
-#### [SQL Exploration of a Healthcare Data Set]
-![SQL Cover Image](images/sql-2_cover-image_module_5.jpg)
+#### [SQL Exploration of a Healthcare Data Set](daa_module5/hospital.md)
+![SQL Cover Image](daa_module5/images/cover_image_module_5.jpg)
 
 Conducting an exploratory data analysis on a healthcare data set.  The goal being to uncover several trends around on how long patients are admitted for on average, what clinics are providing a bulk of the services delivered, and if race plays a role in the level of treatment patients recieve.
 
