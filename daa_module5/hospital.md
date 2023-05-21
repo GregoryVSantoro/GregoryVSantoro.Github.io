@@ -1,6 +1,6 @@
 # SQL Exploration of a Healthcare Data Set
 
-![SQL Cover Image](images/sql-2_cover-image_module_5.jpg)
+![SQL Cover Image](daa_module5/images/sql-2_cover-image_module_5 (1).jpg)
 
 ---
 
@@ -23,7 +23,7 @@ This data set used for this project contains two tables. One contains patient de
 
 A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay. Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more. [`RPAD`](https://www.w3schools.com/sql/func_mysql_rpad.asp) is what's used to create the bar column of the histogram. It has three inputs. The first in Figure 1
 
-<img src="module5_images/histogram_sql_snippet.png" alt="histogram SQL code snippet">
+<img src="daa_module5/images/histogram_sql_snippet.png" alt="histogram SQL code snippet">
   **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
 
 
@@ -51,12 +51,12 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average. Figure 2 shows the SQL used to identify the top 5 and Table 3 is the resulting table. The clause `HAVING` is what specifically allows this query to be give us the desired information. `HAVING` is similar to the `WHERE` clause but for filtering aggregated data.
 
-<img src="images/2_mod5_specialties_avg_procedures.png" alt="SQL snippet to identify top 5 specialties">
+<img src="daa_module5/images/specialties_sql_snippet.png" alt="SQL snippet to identify top 5 specialties">
 **Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
 
 
 **Table 3:** Resulting table from SQL snippet in Figure 2
-<img src="images/3_mod5_top_specialties.png" alt="top 5 medical specialties based on their high average number of procedures">
+<img src="daa_module5/images/3_mod5_top_specialties.png" alt="top 5 medical specialties based on their high average number of procedures">
 
 ---
 
