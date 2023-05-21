@@ -25,7 +25,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 So for our example in Figure 1, `''` is the first input indicating there's no original string to right pad our third input and string , `*`, to. An asterisk in this case being used to represent bars on a histogram.  The second input `COUNT(*)/100` is not setting a limit on string length but instead indicates take the values found from line 3 and divide them by 100 to make a more manageable table for our purposes.
 
-<img src="daa_module5/images/histogram_sql_snippet.png" alt="histogram SQL code snippet">
+<img src="/master/daa_module5/images/histogram_sql_snippet.png" alt="histogram SQL code snippet">
   **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
 
 
