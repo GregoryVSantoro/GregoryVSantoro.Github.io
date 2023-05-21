@@ -1,6 +1,6 @@
 # SQL Exploration of a Healthcare Data Set
 
-![SQL Cover Image](daa_module5/images/cover_image_module_5.jpg)
+![SQL Cover Image](images/daa_module5/cover_image_module_5.jpg)
 
 ---
 
@@ -25,7 +25,7 @@ A hospital can treat only as many patients as they have room for. This is typica
 
 So for our example in Figure 1, `''` is the first input indicating there's no original string to right pad our third input and string , `*`, to. An asterisk in this case being used to represent bars on a histogram.  The second input `COUNT(*)/100` is not setting a limit on string length but instead indicates take the values found from line 3 and divide them by 100 to make a more manageable table for our purposes.
 
-<img src="/master/daa_module5/images/histogram_sql_snippet.png" alt="histogram SQL code snippet">
+<img src="images/daa_module5/histogram_sql_snippet.png" alt="histogram SQL code snippet">
   **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
 
 
@@ -53,12 +53,12 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 
 The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average. Figure 2 shows the SQL used to identify the top 5 and Table 3 is the resulting table. The clause `HAVING` is what specifically allows this query to be give us the desired information. `HAVING` is similar to the `WHERE` clause but for filtering aggregated data.
 
-<img src="daa_module5/images/specialties_sql_snippet.png" alt="SQL snippet to identify top 5 specialties">
+<img src="images/daa_module5/specialties_sql_snippet.png" alt="SQL snippet to identify top 5 specialties">
 **Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
 
 
 **Table 3:** Resulting table from SQL snippet in Figure 2
-<img src="daa_module5/images/3_mod5_top_specialties.png" alt="top 5 medical specialties based on their high average number of procedures">
+<img src="images/daa_module5/3_mod5_top_specialties.png">
 
 ---
 
