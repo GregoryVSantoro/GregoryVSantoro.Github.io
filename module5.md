@@ -73,9 +73,11 @@ This third question posed to me specifically asks if there is a differnece in th
 
 <img src="images/daa_module5/race_lab_tests_sql_snippet.png" alt="SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each">
 **Figure 3:** SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each
+
 <br/>
 **Table 3:**
 <img src="images/daa_module5/race_lab_tests_results_table.png" alt="Result table of SQL snippet in figure 3">
+
 <br/>
 
 ---
