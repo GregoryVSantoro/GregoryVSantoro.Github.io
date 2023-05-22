@@ -60,7 +60,7 @@ The next task was to determine the average number of procedures done by each med
 
 
 **Table 3:** Resulting table from SQL snippet in Figure 2
-<img src="images/daa_module5/3_mod5_top_specialties.png">
+<img src="images/daa_module5/top_specialties.png">
 
 ---
 
