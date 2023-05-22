@@ -5,7 +5,11 @@
 ---
 
 ## Introduction
-In this project the scenario was I have just been hired as data analyst for a hospital. I have just been given my first tasks to complete and they all revolve around the use of SQL. The specific flavor of SQL used here is MySQL.
+In this project the scenario was I have just been hired as data analyst for a hospital and been given a list of questions to answer. The job relies heavily on the use of SQL. The specific flavor of SQL used here is MySQL. The questions are as follows:
+
+1. How many patients stay longer than 7 days?
+2. What specialties are doing the most procedures on average?
+3. Does a patient's demographic play a role in the number of lab tests they recieve?
 
 ## About The Dataset
 
