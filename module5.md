@@ -87,7 +87,7 @@ This third question posed to me specifically asks if there is a differnece in th
 
 ---
 
-### Conclusion
+## Conclusion
 
 This is a large data set that could be used to answer a wide variety of questions. The ones posed to me in this hypothetical situation barely scratch the surface but serve to highlight a few of the ways SQL allow us to pull data from different tables very quickly and easily. What other questions do you think could be answered with this data set? And what queries would you use to answer those?
 
