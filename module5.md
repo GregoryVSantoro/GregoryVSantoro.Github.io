@@ -70,7 +70,7 @@ The next question posed to me was to determine the average number of procedures 
 
 ### 3. Does A Patient's Demographic Influence Their Number of Lab Tests
 
-This third question posed to me specifically asks if there is a differnece in the number of lab tests recieved depending on a patients race. The two tables in the data set separate the demograhpics data from health data. To answer this then a `JOIN` must be used. Figure 3 shows how I achieved this. The column `patient_nbr` exists on both tables making a `JOIN` possible. Table 3 shows the resulting table where at a glance it doens't appear there is a disparity between these two variables. One thing to note is there's a `?` in the race column that represents values where a the race of the patient is missing from the data set and recorded as such. Figure 4 shows the count of each race in the data set. The missing race data only accounts for 2.7% of all patients potentially indicating if those races were recorded that it would not drastically change the results from the query.
+This third question posed to me specifically asks if there is a differnece in the number of lab tests recieved depending on a patients race. The two tables in the data set separate the demograhpics data from health data. To answer this then a `JOIN` must be used. Figure 3 shows how I achieved this. The column `patient_nbr` exists on both tables making a `JOIN` possible. Table 3 shows the resulting table where at a glance it doens't appear there is a disparity between these two variables. One thing to note is there's a `?` in the race column that represents values where a the race of the patient is missing from the data set and recorded as such. Table 4 shows the count of each race in the data set. The missing race data only accounts for 2.7% of all patients potentially indicating if those races were recorded that it would not drastically change the results from the query.
 
 <img src="images/daa_module5/race_lab_tests_sql_snippet.png" alt="SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each">
 **Figure 3:** SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each
@@ -80,10 +80,11 @@ This third question posed to me specifically asks if there is a differnece in th
 <img src="images/daa_module5/race_lab_tests_results_table.png" alt="Result table of SQL snippet in figure 3">
 
 <br/>
-**Figure 4:** Count of races in data set
+**Table 4:** Count of races in data set
 <img src="images/daa_module5/count_of_races.png" alt="Count of races in data set">
 
 <br/>
+
 ---
 
 ### Conclusion
