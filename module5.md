@@ -5,7 +5,7 @@
 ---
 
 ## Introduction
-In this project the scenario was I have just been hired as data analyst for a hospital and been given a list of questions to answer. The job relies heavily on the use of SQL. The specific flavor of SQL used here is MySQL. The questions are as follows:
+In this project the scenario was I have just been hired as data analyst for a hospital and been given a list of questions to answer by the hospital director. The job relies heavily on the use of SQL. The specific flavor of SQL used here is MySQL. The questions are as follows:
 
 1. How many patients stay longer than 7 days?
 2. What specialties are doing the most procedures on average?
@@ -23,13 +23,13 @@ This data set used for this project contains two tables. One contains patient de
 
 ## Analysis
 
-### Length of Patient Stay
+### 1. Length of Patient Stay
 
-A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first task was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay.
+A hospital can treat only as many patients as they have room for. This is typically measured by how many beds or rooms they have. My first question to answer was to find out if a majority of patients are admitted for more than 7 days. An effective way to show this visually is with a histogram, but the goal here is to only work within SQL to complete this analysis.  SQL is not a data visualization tool, but in this case there are some options available to create a crude, yet effective visualization showing the average length of a patient's stay.
 
 Figure 1 shows the SQL used to create Table 1, a histogram showcasing that most patinents do not stay for 7 days or more. [`RPAD`](https://www.w3schools.com/sql/func_mysql_rpad.asp) is what's used to create the bar column of the histogram. It has three inputs. If you look at line 4 in Figure 1 you'll see the first input is the string `''`, or a open and closed single quotation mark. This input would normally contain text that is considered the original string which `RPAD` would then right pad the third input to.  You could think of it as being similar to `CONCAT` or concatenating two strings toether.  Last but not least, is the second input which controals the length of the string after being right padded.
 
-So for our example in Figure 1, `''` is the first input indicating there's no original string to right pad our third input and string , `*`, to. An asterisk in this case being used to represent bars on a histogram.  The second input `COUNT(*)/100` is not setting a limit on string length but instead indicates take the values found from line 3 and divide them by 100 to make a more manageable table for our purposes.
+So for our example in Figure 1, `''` is the first input indicating there's no original string to right pad our third input and string , `*`, to. An asterisk in this case being used to represent bars on a histogram.  The second input `COUNT(*)/100` is not setting a limit on string length but instead indicates take the values found from line 3 and divide them by 100 to make a more manageable table.
 
 <img src="images/daa_module5/histogram_sql_snippet.png" alt="histogram SQL code snippet">
   **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
@@ -55,20 +55,30 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 | 14     | 1042  | ******** |
 
 <br/>
-### Identifying Top 5 Specialties
+### 2. Identifying Top 5 Specialties
 
-The next task was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average. Figure 2 shows the SQL used to identify the top 5 and Table 3 is the resulting table. The clause `HAVING` is what specifically allows this query to be give us the desired information. `HAVING` is similar to the `WHERE` clause but for filtering aggregated data.
+The next question posed to me was to determine the average number of procedures done by each medical specialty and then identify the departments that perform the most procedures on average. Figure 2 shows the SQL used to identify the top 5 and Table 2 is the resulting table. The clause `HAVING` is what specifically allows this query to display the desired information. `HAVING` is similar to the `WHERE` clause but for filtering aggregated data.
 
 <img src="images/daa_module5/specialties_sql_snippet.png" alt="SQL snippet to identify top 5 specialties">
 **Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
-
-
-**Table 3:** Resulting table from SQL snippet in Figure 2
-<img src="images/daa_module5/top_specialties.png">
+<br/>
+**Table 2:** Resulting table from SQL snippet in Figure 2
+<img src="images/daa_module5/top_specialties.png" alt="Top medical specialties based on their average number of procedures performed">
 
 ---
 
-under_construction
+### 3. Does A Patient's Demographic Influence Their Number of Lab Tests
+
+This third question posed to me specifically asks if there is a differnece in the number of lab tests recieved depending on a patients race. The two tables in the data set separate the demograhpics data from health data. To answer this then a `JOIN` must be used.
+
+<img src="images/daa_module5/race_lab_tests_sql_snippet.png" alt="SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each">
+**Figure 3:** SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each
+<br/>
+**Table 3:**
+<img src="images/daa_module5/race_lab_tests_results_table.png" alt="Result table of SQL snippet in figure 3">
+<br/>
+
+---
 
 ### Conclusion
 
