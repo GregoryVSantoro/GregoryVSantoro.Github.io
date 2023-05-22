@@ -61,6 +61,7 @@ The next question posed to me was to determine the average number of procedures 
 
 <img src="images/daa_module5/specialties_sql_snippet.png" alt="SQL snippet to identify top 5 specialties">
 **Figure 2:** SQL snippet used to identify top 5 specialties of the hospital based on their high average number of procedures performed
+
 <br/>
 **Table 2:** Resulting table from SQL snippet in Figure 2
 <img src="images/daa_module5/top_specialties.png" alt="Top medical specialties based on their average number of procedures performed">
