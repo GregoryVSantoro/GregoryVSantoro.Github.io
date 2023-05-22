@@ -76,7 +76,7 @@ This third question posed to me specifically asks if there is a differnece in th
 **Figure 3:** SQL snippet showing how to create table higlighting race categories and the average number of lab tests performed for each
 
 <br/>
-**Table 3:**
+**Table 3:** Results of Figure 3 SQL snippet
 <img src="images/daa_module5/race_lab_tests_results_table.png" alt="Result table of SQL snippet in figure 3">
 
 <br/>
