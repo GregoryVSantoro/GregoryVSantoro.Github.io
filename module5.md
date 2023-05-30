@@ -36,7 +36,6 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 
 <br/>
 
-<div class="table-container">
   **Table 1:** A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay
   
 |  days  | count | bar                                                                               |
@@ -56,7 +55,6 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 | 13     | 1210  | ********** |
 | 14     | 1042  | ******** |
 
-</div>
      
 <br/>
 ### 2. Identifying Top 5 Specialties
