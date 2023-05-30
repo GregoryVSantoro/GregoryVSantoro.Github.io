@@ -35,7 +35,12 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
   **Figure 1:** SQL code snippet to create the histogram showing the number of patients who stay between 1 and 14 days
 
 <br/>
-<div class="table-wrapper" markdown="block">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="table-container">
+    <table>
   **Table 1:** A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay
   
 |  days  | count | bar                                                                               |
@@ -54,9 +59,10 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 | 12     | 1448  | ************ |
 | 13     | 1210  | ********** |
 | 14     | 1042  | ******** |
-  </table>
-
-</div>
+    </table>
+  </div>
+</body>
+     
 <br/>
 ### 2. Identifying Top 5 Specialties
 
