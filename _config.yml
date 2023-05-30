@@ -1,7 +1,11 @@
 title: Gregory V Santoro # your name (or website title) here
 logo: "/images/BEFC30FD-56D0-4B10-9364-E8AA7DAE9E2A_1_201_a.jpeg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Data Analyst | Engineer
+  <ul>
+  <li>Data Analyst</li>
+  <li>Engineer</li>
+  <li>U.S. Army Veteran</li>
+  </ul>
   <br><br>
   <a href="https://www.linkedin.com/in/gregory-santoro/">LinkedIn Profile</a> 
   
