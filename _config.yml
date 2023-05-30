@@ -6,7 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <li>Engineer</li>
   <li>U.S. Army Veteran</li>
   </ul>
-  <br><br>
+  <br>
   <a href="https://www.linkedin.com/in/gregory-santoro/">LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
