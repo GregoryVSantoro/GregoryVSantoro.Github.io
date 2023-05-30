@@ -36,7 +36,7 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 
 <br/>
 <div style="overflow-x: auto;">
-  <table>
+  <table class="scrollable-table">
   **Table 1:** A SQL-generated histogram illustrating the frequency of patient admissions based on the duration of stay
   
 |  days  | count | bar                                                                               |
