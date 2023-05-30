@@ -36,7 +36,7 @@ So for our example in Figure 1, `''` is the first input indicating there's no or
 
 <br/>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="module5.css">
 </head>
 <body>
   <div class="table-container">
