@@ -3,3 +3,28 @@
   width: 100%;
   overflow-x: auto; /* Enable horizontal scrolling */
 }
+
+/* Style the table */
+.table-container table {
+  border-collapse: collapse;
+}
+
+/* Style the table headers */
+.table-container th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the table cells */
+.table-container td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add some responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .table-container table {
+    width: 100%;
+  }
+}
