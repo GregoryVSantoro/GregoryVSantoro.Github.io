@@ -67,12 +67,13 @@ As noted about the data set, there's a total of three rows per player for player
   <table>
     <thead>
       <tr>
-        <th>Team</th>
+        <th></th>
         <th colspan="12">Position</th>
       </tr>
       <tr>
-        <th></th>
+        <th>Tm</th>
         <th>C</th>
+        <th>C-PF</th>
         <th>C-PF</th>
         <th>PF</th>
         <th>PF-SF</th>
