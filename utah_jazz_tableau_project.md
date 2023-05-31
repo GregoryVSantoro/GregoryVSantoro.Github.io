@@ -12,7 +12,7 @@ date: 2023-05-30
 ---
 
 ## Introduction
-<br><br>
+<br>
 When it comes to sports I prefer the kind where you kick a ball rather than throw it. But in this project prompted to me by the wonderful [Data Career Jumpstart Bootcamp](https://www.datacareerjumpstart.com/), I wasn't asked to complete an analysis for AFC Richmond, but the Utah Jazz, a basketball team!
 <br>
 ## About the Data Set
