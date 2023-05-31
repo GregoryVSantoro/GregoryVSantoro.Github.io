@@ -538,6 +538,7 @@ As noted about the data set, there's a total of three rows per player for player
     </tbody>
   </table>
 </div>
+
 <br><br>
 ## Conclusion
 <br>
