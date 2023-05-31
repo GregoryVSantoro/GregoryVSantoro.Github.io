@@ -19,9 +19,9 @@ When it comes to sports I prefer the kind where you kick a ball rather than thro
 
 ## About the Data Set
 
-The data comes from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2022_totals.html). It's a summary of player stats data from the NBA 2021-2022 season. 
+The data comes from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2022_totals.html). It's a summary of player stats data from the NBA 2021-2022 season. The full glossary can be found below:
 
-<ul style="height: 200px; overflow-y: scroll;">
+<ul style="height: 250px; overflow-y: scroll; border="1";">
   <li>Rk -- Rank</li>
   <li>Pos -- Position</li>
   <li>Age -- Player's age on February 1 of the season</li>
@@ -53,7 +53,7 @@ The data comes from [basketball-reference.com](https://www.basketball-reference.
   <li>PTS -- Points</li>
 </ul>
 
-*This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal
+*_This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal_
 
 <!--
 <div style="text-align: left;">
