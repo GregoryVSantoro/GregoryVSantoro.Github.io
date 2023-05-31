@@ -12,7 +12,7 @@ date: 2023-05-30
 ---
 <br>
 ## Introduction
-<br>
+<br><br>
 When it comes to sports I prefer the kind where you kick a ball rather than throw it. But in this project prompted to me by the wonderful [Data Career Jumpstart Bootcamp](https://www.datacareerjumpstart.com/), I wasn't asked to complete an analysis for AFC Richmond, but the Utah Jazz, a basketball team!
 <br>
 ## About the Data Set
@@ -56,13 +56,13 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 ## Key Highlights
 <br>
 
-<br>
+<br><br>
 ## Analysis
 <br>
 
-<br>
+<br><br>
 ## Conclusion
 <br>
 
-<br>
+<br><br>
 If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
