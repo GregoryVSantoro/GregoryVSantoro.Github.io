@@ -58,10 +58,10 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 
 ## Key Highlights
 
-
+<br>
 ## Analysis
 
-
+<br>
 ## Conclusion
 
 If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
