@@ -8,15 +8,16 @@ date: 2023-05-30
 # From the Bench to the Dashboard: Analyzing the Utah Jazz with Tableau
 <br>
 ![Utah Jazz Tableau Project Cover Image](images/utah_jazz_tableau_project/utah_jazz_tableau_project_cover_image.png)
+
 ---
 <br>
 ## Introduction
 <br>
-When it comes to sports I prefer the kind where you kick a ball rather than throw it. But in this project prompted to me by the wonderful [Data Career Jumpstart Bootcamp](https://www.datacareerjumpstart.com/), I wasn't hired to be a data analyst for AFC Richmond, but the Utah Jazz, a basketball team!
+When it comes to sports I prefer the kind where you kick a ball rather than throw it. But in this project prompted to me by the wonderful [Data Career Jumpstart Bootcamp](https://www.datacareerjumpstart.com/), I wasn't asked to complete an analysis for AFC Richmond, but the Utah Jazz, a basketball team!
 <br>
 ## About the Data Set
 <br>
-The data comes from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2022_totals.html). It's a summary of player stats data from the NBA 2021-2022 season. The full glossary can be found below:
+The data comes from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2022_totals.html). It's a summary of player stats data from the NBA 2021-2022 season. The full glossary for each piece of data can be found below:
 <br>
 <ul style="height: 250px; overflow-y: scroll;">
   <li>Rk -- Rank</li>
@@ -51,7 +52,7 @@ The data comes from [basketball-reference.com](https://www.basketball-reference.
 </ul>
 <br>
 _*This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal_
-<br>
+<br><br>
 ## Key Highlights
 <br>
 
