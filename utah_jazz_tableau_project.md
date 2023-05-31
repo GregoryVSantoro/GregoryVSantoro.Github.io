@@ -74,7 +74,6 @@ As noted about the data set, there's a total of three rows per player for player
         <th>Tm</th>
         <th>C</th>
         <th>C-PF</th>
-        <th>C-PF</th>
         <th>PF</th>
         <th>PF-SF</th>
         <th>PG</th>
