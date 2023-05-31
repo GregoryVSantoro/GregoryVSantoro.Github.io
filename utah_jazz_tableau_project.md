@@ -55,24 +55,11 @@ The data comes from [basketball-reference.com](https://www.basketball-reference.
 
 _*This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal_
 
-<!--
-<div style="text-align: left;">
-  <ul>
-    <li>Rk: Rank</li>
-    <li>Pos: Position</li>
-    <li>Tm: Team</li>
-    <li>FT%: Free Throw Percentage</li>
-    <li>ORB: Offensive Rebounds</li>
-    <li>3P%: 3-Point Field Goal Percentage</li>
-  </ul>
-</div>
--->
-
-The full glossary of terms can be found on the site, the examples listed only serve to give you an idea of what stats are located in the data set.
-
 
 ## Key Highlights
 
+
+## Analysis
 
 
 ## Conclusion
