@@ -60,12 +60,10 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 ## Analysis
 <br>
 As noted about the data set, there's a total of three rows per player for players who were traded mid-season. Depending on the visualization being created, this can cause a few issues.  For example, say I wanted to showcase the 3 point field goal percentage, the total 3 point shots made versus how many were attempted, broken up by the positions on each team represented in the data set.
-
-<div style="width: 600px; height: 400px; overflow: auto;">
-  <table>
-    <thead>
+<div style="width: 500px; height: 300px; overflow: auto;">
+  <table border="1">
+    <tbody>
       <tr>
-        <th>Pos</th>
         <th>Tm</th>
         <th>C</th>
         <th>C-PF</th>
@@ -80,8 +78,6 @@ As noted about the data set, there's a total of three rows per player for player
         <th>SG-PG-SF</th>
         <th>SG-SF</th>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>ATL</td>
         <td>0.2130</td>
@@ -93,7 +89,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.3484</td>
         <td></td>
         <td>0.3445</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -112,7 +107,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>BRK</td>
@@ -125,7 +119,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.4280</td>
         <td></td>
         <td>0.2776</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -144,7 +137,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>CHO</td>
@@ -157,7 +149,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.3000</td>
         <td></td>
         <td>0.3605</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -176,7 +167,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>DAL</td>
@@ -189,7 +179,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.2983</td>
         <td></td>
         <td>0.2857</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -208,7 +197,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>DET</td>
@@ -221,7 +209,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.3333</td>
         <td></td>
         <td>0.2643</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -240,7 +227,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>HOU</td>
@@ -253,7 +239,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.3190</td>
         <td></td>
         <td>0.3364</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -272,7 +257,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>LAC</td>
@@ -285,7 +269,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.4700</td>
         <td></td>
         <td>0.3646</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -304,7 +287,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>MEM</td>
@@ -317,7 +299,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td>0.2390</td>
         <td></td>
         <td>0.2644</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -336,7 +317,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>MIL</td>
@@ -352,7 +332,6 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>MIN</td>
@@ -364,200 +343,187 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td>0.2535</td>
         <td></td>
-        <td>0.3800</td>
-        <td></td>
+        <td>0.3565</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>NOP</td>
-        <td>0.2940</td>
+        <td>0.3483</td>
         <td></td>
-        <td>0.3686</td>
+        <td>0.4123</td>
         <td></td>
-        <td>0.3787</td>
+        <td>0.3183</td>
         <td></td>
-        <td>0.3997</td>
+        <td>0.2273</td>
         <td></td>
-        <td>0.3142</td>
-        <td></td>
+        <td>0.3083</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>NYK</td>
-        <td>0.2837</td>
+        <td>0.2460</td>
         <td></td>
-        <td>0.3783</td>
+        <td>0.3880</td>
         <td></td>
-        <td>0.2940</td>
+        <td>0.3963</td>
         <td></td>
-        <td>0.3950</td>
+        <td>0.2040</td>
         <td></td>
-        <td>0.3224</td>
-        <td></td>
+        <td>0.2945</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>OKC</td>
-        <td>0.3220</td>
+        <td>0.3213</td>
         <td></td>
-        <td>0.2780</td>
+        <td>0.3540</td>
         <td></td>
-        <td>0.3135</td>
+        <td>0.2956</td>
         <td></td>
-        <td>0.2630</td>
+        <td>0.2923</td>
         <td></td>
-        <td>0.2906</td>
-        <td></td>
+        <td>0.2868</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>ORL</td>
-        <td>0.1960</td>
+        <td>0.2385</td>
         <td></td>
-        <td>0.2364</td>
+        <td>0.2395</td>
         <td></td>
-        <td>0.3337</td>
+        <td>0.3125</td>
         <td></td>
-        <td>0.2020</td>
+        <td>0.3900</td>
         <td></td>
-        <td>0.2114</td>
-        <td></td>
+        <td>0.2300</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>PHI</td>
-        <td>0.4027</td>
+        <td>0.3100</td>
         <td></td>
-        <td>0.3376</td>
+        <td>0.4167</td>
         <td></td>
-        <td>0.4075</td>
+        <td>0.3057</td>
         <td></td>
-        <td>0.2680</td>
+        <td>0.2977</td>
         <td></td>
-        <td>0.3820</td>
-        <td></td>
+        <td>0.3073</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>PHO</td>
-        <td>0.3837</td>
+        <td>0.2890</td>
         <td></td>
-        <td>0.3816</td>
+        <td>0.3750</td>
         <td></td>
-        <td>0.4053</td>
+        <td>0.2175</td>
         <td></td>
-        <td>0.2633</td>
+        <td>0.3760</td>
         <td></td>
-        <td>0.3985</td>
-        <td></td>
+        <td>0.2677</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>POR</td>
-        <td>0.3453</td>
+        <td>0.3435</td>
         <td></td>
-        <td>0.3624</td>
+        <td>0.3770</td>
         <td></td>
-        <td>0.2728</td>
+        <td>0.3548</td>
         <td></td>
-        <td>0.3134</td>
+        <td>0.3125</td>
         <td></td>
-        <td>0.3334</td>
-        <td></td>
+        <td>0.3704</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>SAC</td>
-        <td>0.2447</td>
+        <td>0.3153</td>
         <td></td>
-        <td>0.2453</td>
+        <td>0.2500</td>
         <td></td>
-        <td>0.3645</td>
+        <td>0.3604</td>
         <td></td>
-        <td>0.3653</td>
+        <td>0.2605</td>
         <td></td>
-        <td>0.2932</td>
-        <td></td>
+        <td>0.3775</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>SAS</td>
-        <td>0.3050</td>
+        <td>0.2567</td>
         <td></td>
-        <td>0.3323</td>
+        <td>0.3327</td>
         <td></td>
-        <td>0.3568</td>
+        <td>0.3233</td>
         <td></td>
-        <td>0.2693</td>
+        <td>0.3030</td>
         <td></td>
-        <td>0.2724</td>
-        <td></td>
+        <td>0.2453</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>TOR</td>
-        <td>0.3657</td>
+        <td>0.2600</td>
         <td></td>
-        <td>0.3637</td>
+        <td>0.3135</td>
         <td></td>
-        <td>0.2680</td>
+        <td>0.2530</td>
         <td></td>
-        <td>0.2847</td>
+        <td>0.4160</td>
         <td></td>
-        <td>0.3300</td>
-        <td></td>
+        <td>0.2550</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>UTA</td>
-        <td>0.3967</td>
+        <td>0.3615</td>
         <td></td>
-        <td>0.3927</td>
+        <td>0.3440</td>
         <td></td>
-        <td>0.3155</td>
+        <td>0.3165</td>
         <td></td>
-        <td>0.2863</td>
+        <td>0.2450</td>
         <td></td>
-        <td>0.4297</td>
-        <td></td>
+        <td>0.3985</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>WAS</td>
-        <td>0.2790</td>
+        <td>0.3213</td>
         <td></td>
-        <td>0.2955</td>
+        <td>0.3610</td>
         <td></td>
-        <td>0.3014</td>
+        <td>0.2807</td>
         <td></td>
-        <td>0.2547</td>
+        <td>0.2823</td>
         <td></td>
-        <td>0.2768</td>
-        <td></td>
+        <td>0.3296</td>
         <td></td>
         <td></td>
         <td></td>
@@ -565,7 +531,6 @@ As noted about the data set, there's a total of three rows per player for player
     </tbody>
   </table>
 </div>
-
 <br><br>
 ## Conclusion
 <br>
