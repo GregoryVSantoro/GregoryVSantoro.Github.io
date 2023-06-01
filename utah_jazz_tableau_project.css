@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background-color: #f1f1f1;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tbody {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+thead, tbody {
+  display: block;
+}
