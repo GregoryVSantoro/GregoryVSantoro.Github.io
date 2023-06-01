@@ -24,9 +24,18 @@ thead, tbody {
   display: block;
 }
 
+/* For mobile devices */
 .responsive-image {
   max-width: 100%;
   height: auto;
   width: 100%; /* Adjust this value as needed */
 }
+
+/* For desktop devices */
+@media (min-width: 768px) {
+  .responsive-image {
+    width: 50%; /* Adjust this value as needed */
+  }
+}
+
 
