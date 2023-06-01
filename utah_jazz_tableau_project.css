@@ -23,3 +23,9 @@ tbody {
 thead, tbody {
   display: block;
 }
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
