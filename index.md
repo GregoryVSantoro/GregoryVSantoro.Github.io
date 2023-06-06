@@ -5,7 +5,7 @@
 ### Projects
 
 ---
-### [Metals R Us - Python Project](/python_project_module7.md)
+### [Metals R Us - Python Project]<!--(/python_project_module7.md)-->
 ![python project cover image](images/daa_module7/python_module_project_cover_image.jpg)
 
 coming_soon_
