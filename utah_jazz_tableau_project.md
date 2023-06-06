@@ -564,6 +564,11 @@ The first objective was to create an easy way to identify what position is most 
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
 
 
+The next objective was to highlight the relationship between points, assists, and rebounds made by all players. A scatter plot is a great tool to show the relationship between two variables, but what about showing a relationship between three? This is where a bubble plot comes in handy. This can show a third variable using the size of each marker. On the x-axis we have points scored, y-axis has assists, and the sum of "TRB," or total rebounds, is placed in the size card. All resulting in Figure 2, where we can see a portion of the resulting bubble plot.
+
+<img alt ="bubble plot showing points, assists, and rebounds" src="/images/utah_jazz_tableau_project/nba_bubble_plot.png">
+
+**Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
 
 <br><br>
 ## Conclusion
