@@ -38,4 +38,3 @@ How much does a customer spend relative to their income?
 How does income level influence the total amount spent in the app?
 
 ---
-[test](/test_html_for_utah_jazz.html)
