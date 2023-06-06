@@ -570,6 +570,19 @@ The next objective was to highlight the relationship between points, assists, an
 
 **Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
 
+The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data.
+
+<img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
+
+**Figure 3:**
+
+
+text
+
+<img alt ="" src="images/utah_jazz_tableau_project/nba_stacked_bar_chart.png">
+
+**Figure 4:**
+
 <br><br>
 ## Conclusion
 
