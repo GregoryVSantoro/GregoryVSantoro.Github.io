@@ -567,10 +567,13 @@ The first objective was to create an easy way to identify what position is most 
 The next objective was to highlight the relationship between points, assists, and rebounds made by all players. A scatter plot is a great tool to show the relationship between two variables, but what about showing a relationship between three? This is where a bubble plot comes in handy. This can show a third variable using the size of each marker. On the x-axis we have points scored, y-axis has assists, and the sum of "TRB," or total rebounds, is placed in the size card. All resulting in Figure 2, where we can see a portion of the resulting bubble plot.
 
 <br>
+
 <img alt ="bubble plot showing points, assists, and rebounds" src="/images/utah_jazz_tableau_project/nba_bubble_plot.png">
 
 **Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
+
 <br>
+
 The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
 <center>
@@ -578,6 +581,7 @@ The third objective involves the use of a [treemap](https://en.wikipedia.org/wik
 </center>
 
 **Figure 3:** Marks card settings for treemap
+
 <br>
 
 <img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
@@ -585,6 +589,7 @@ The third objective involves the use of a [treemap](https://en.wikipedia.org/wik
 **Figure 4:** Treemap of assists made by each player and divided by positon played
 
 <br>
+
 Last but not least is the stacked bar chart utilized to show the points breakdown of each player on each team. It's nice to see a simple bar chart displaying the total points of each team over the season, but adding in a breakdown of what points were scored by each player adds this whole new dimension to a relatively plain visualization. See Figure 5 for the final result.
 
 <img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
@@ -592,6 +597,7 @@ Last but not least is the stacked bar chart utilized to show the points breakdow
 **Figure 5:** Stacked bar chart indicating a teams total points scored and by what player
 
 <br>
+
 ## Conclusion
 
 Sports generate so much data that they're a statistics gold mine. There's a lot of information that can be gleaned from such countless data and knowing how to make use of it can really make a difference for a team's success moving forward into the next season. I'm still not a basketball fan or expert, but I certainly can appreciate players like Nikola Jokić or Trae Young for being at the absolute top of their game.
