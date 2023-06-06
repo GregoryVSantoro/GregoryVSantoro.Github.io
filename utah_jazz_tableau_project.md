@@ -66,6 +66,10 @@ As noted about the data set, there's a total of three rows per player for player
 <div style="height: 250px; overflow: scroll;">
   <table style="width: 100%;">
       <tr>
+        <th></th>
+        <th colspan="12">Position</th>
+      </tr>
+      <tr>
         <th>Tm</th>
         <th>C</th>
         <th>C-PF</th>
