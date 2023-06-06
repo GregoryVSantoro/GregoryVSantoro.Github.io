@@ -577,7 +577,7 @@ The third objective involves the use of a [treemap](https://en.wikipedia.org/wik
 **Figure 3:**
 
 
-textc
+text_
 
 <img alt ="" src="images/utah_jazz_tableau_project/nba_stacked_bar_chart.png">
 
