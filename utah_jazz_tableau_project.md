@@ -557,15 +557,20 @@ As noted about the data set, there's a total of three rows per player for player
 
 <br>
 
-The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product.
+The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product. All that was needed to make this is placing player positions in the column shelf, teams in the row shelf, and placing the 3-pt percentage as an averge in the color and text cards. And voilà, an easily created table that is quick to read!
 
 <img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
+
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
+
+
 
 <br><br>
 ## Conclusion
 
-Sports generate so much data that they're a statistics gold mine. There's a lot of information that can be gleaned from such countless data and knowing how to make use of it can really make a difference for a team's success moving forward into the next season. If you were to tackle a sports visualization project, would you choose basketball or another sport? What questions would you hope to answer?
+Sports generate so much data that they're a statistics gold mine. There's a lot of information that can be gleaned from such countless data and knowing how to make use of it can really make a difference for a team's success moving forward into the next season. I'm still not a basketball fan or expert, but I certainly can appreciate players like Nikola Jokić or Trae Young for being at the absolute top of their game.
+
+If you were to tackle a sports visualization project, would you choose basketball or another sport? What questions would you hope to answer?
 
 To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)!
 
