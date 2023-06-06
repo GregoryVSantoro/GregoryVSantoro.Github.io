@@ -558,24 +558,21 @@ As noted about the data set, there's a total of three rows per player for player
 <br>
 
 The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product. All that was needed to make this is placing player positions in the column shelf, teams in the row shelf, and placing the 3-pt percentage as an averge in the color and text cards. And voilà, an easily created table that is quick to read!
-
-
+<br>
 <img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
 
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
-
-
+<br>
 The next objective was to highlight the relationship between points, assists, and rebounds made by all players. A scatter plot is a great tool to show the relationship between two variables, but what about showing a relationship between three? This is where a bubble plot comes in handy. This can show a third variable using the size of each marker. On the x-axis we have points scored, y-axis has assists, and the sum of "TRB," or total rebounds, is placed in the size card. All resulting in Figure 2, where we can see a portion of the resulting bubble plot.
-
+<br>
 <img alt ="bubble plot showing points, assists, and rebounds" src="/images/utah_jazz_tableau_project/nba_bubble_plot.png">
 
 **Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
-
-
+<br>
 The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
 <center>
-<img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 75%;">
+<img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 50%;">
 </center>
 
 **Figure 3:** Marks card settings for treemap
