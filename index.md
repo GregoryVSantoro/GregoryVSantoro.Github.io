@@ -8,7 +8,7 @@
 ### [From the Bench to the Dashboard: Analyzing the Utah Jazz with Tableau](/utah_jazz_tableau_project.md)
 ![daa intermediate tableau project cover image](images/utah_jazz_tableau_project/utah_jazz_tableau_project_cover_image.png)
 
-coming_soon
+coming_soon_
 
 ---
 ### [SQL Exploration of a Healthcare Data Set](/module5.md)
