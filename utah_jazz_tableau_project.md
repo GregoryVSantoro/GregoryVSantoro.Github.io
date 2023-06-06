@@ -536,3 +536,7 @@ As noted about the data set, there's a total of three rows per player for player
       </tr>
     </table>
 </div>
+
+---
+
+To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)! And if you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
