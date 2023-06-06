@@ -576,10 +576,12 @@ The next objective was to highlight the relationship between points, assists, an
 
 The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
+<br>
+
 <center>
 <img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 50%;">
 </center>
-
+<br>
 **Figure 3:** Marks card settings for treemap
 
 <br>
