@@ -557,8 +557,13 @@ As noted about the data set, there's a total of three rows per player for player
 
 <br>
 
-The first task was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color to it will help 
+The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need.
 
+<br><br>
 ## Conclusion
 
-To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)! And if you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
+Sports generate so much data that they're a statistics gold mine. There's a lot of information that can be gleaned from such countless data and knowing how to make use of it can really make a difference for a team's success moving forward into the next season. If you were to tackle a sports visualization project, would you choose basketball or another sport? What questions would you hope to answer?
+
+To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)!
+
+If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
