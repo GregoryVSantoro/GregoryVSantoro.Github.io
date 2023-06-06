@@ -5,7 +5,7 @@
 ### Projects
 
 ---
-### [From the Bench to the Dashboard: Analyzing the Utah Jazz with Tableau](/utah_jazz_tableau_project.md)
+### [From the Bench to the Dashboard: Analyzing for the Utah Jazz with Tableau](/utah_jazz_tableau_project.md)
 ![daa intermediate tableau project cover image](images/utah_jazz_tableau_project/utah_jazz_tableau_project_cover_image.png)
 
 Creating visualizations from the NBA's data on the 2021-2022 season using Tableau.
