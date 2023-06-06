@@ -55,7 +55,7 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 <br><br>
 ## Key Highlights
 
-- The Toronto Raptors and Washington Wizards should reconsider the players they placed as shooting guars. They had the lowest 3-pt percentage.
+- The Toronto Raptors and Washington Wizards should reconsider the players they placed as shooting guards. They had the lowest 3-pt percentage.
 
 - Nikola Jokić is an outlier in terms of being a center position player, but scoring as many points as most point guards
 
