@@ -557,7 +557,10 @@ As noted about the data set, there's a total of three rows per player for player
 
 <br>
 
-The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need.
+The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product.
+
+<img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
+**Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
 
 <br><br>
 ## Conclusion
