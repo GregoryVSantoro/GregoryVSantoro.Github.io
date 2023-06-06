@@ -11,6 +11,8 @@ date: 2023-05-30
 
 ---
 
+To skip to the full Tableau Story, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)! If you want to know how I did my analysis, read on.
+
 ## Introduction
 
 When it comes to sports I prefer the kind where you kick a ball rather than throw it. But in this project prompted to me by the wonderful [Data Career Jumpstart Bootcamp](https://www.datacareerjumpstart.com/), I wasn't asked to complete an analysis for AFC Richmond, but the Utah Jazz, a basketball team! I'll be pretending that I'm interviewing for a data analyst position with them and create some visualizations using Tableau as part of the process.
@@ -62,6 +64,7 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 - Trae Young (PG), Giannis Antetokounmpo (PF), Khris Middleton (SF), Tyrese Haliburton (SG), and Nikola Jokić (C) lead in assists.
 
 - Trae Young scored the most points in the season.
+
 
 <br>
 ## Analysis
@@ -559,7 +562,7 @@ As noted about the data set, there's a total of three rows per player for player
 
 The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product. All that was needed to make this is placing player positions in the column shelf, teams in the row shelf, and placing the 3-pt percentage as an averge in the color and text cards. And voilà, an easily created table that is quick to read!
 <br>
-<img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
+<img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table2.png">
 
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
 
@@ -596,7 +599,7 @@ Last but not least is the stacked bar chart utilized to show the points breakdow
 
 <img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
 
-**Figure 5:** Stacked bar chart indicating a teams total points scored and by what player
+**Figure 5:** Stacked bar chart indicating a teams total points scored and differnet colors indicating individual players
 
 <br>
 
