@@ -570,18 +570,22 @@ The next objective was to highlight the relationship between points, assists, an
 
 **Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
 
-The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data.
+The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
-<img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
+<img alt="treemap of assists" src="images/utah_jazz_tableau_project/treemap_settings.png">
 
 **Figure 3:**
 
+<img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
 
-text
+**Figure 4:**
+
+
+Last but not least is the stacked bar chart utilized to show the points breakdown of each player on each team. It's nice to see a simple bar chart displaying the total points of each team over the season, but adding in a breakdown of what points were scored by each player adds this whole new dimension to a relatively plain visualization. See Figure 5 for the final result.
 
 <img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
 
-**Figure 4:**
+**Figure 5:**
 
 <br><br>
 ## Conclusion
@@ -590,6 +594,6 @@ Sports generate so much data that they're a statistics gold mine. There's a lot 
 
 If you were to tackle a sports visualization project, would you choose basketball or another sport? What questions would you hope to answer?
 
-To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)!
+To see the full story on Tableau, please click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)!
 
 If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
