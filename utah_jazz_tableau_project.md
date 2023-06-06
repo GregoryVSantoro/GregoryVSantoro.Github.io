@@ -68,10 +68,6 @@ As noted about the data set, there's a total of three rows per player for player
   <table style="width: 100%;">
     <thead>
       <tr>
-        <th></th>
-        <th colspan="12">Position</th>
-      </tr>
-      <tr>
         <th>Tm</th>
         <th>C</th>
         <th>C-PF</th>
@@ -538,5 +534,3 @@ As noted about the data set, there's a total of three rows per player for player
       </tr>
     </table>
 </div>
-
-  ---
