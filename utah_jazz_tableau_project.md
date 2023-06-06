@@ -572,20 +572,22 @@ The next objective was to highlight the relationship between points, assists, an
 
 The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
-<img alt="treemap of assists" src="images/utah_jazz_tableau_project/treemap_settings.png">
+<center>
+<img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 75%">
+</center>
 
-**Figure 3:**
+**Figure 3:** Marks card settings for treemap
 
 <img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
 
-**Figure 4:**
+**Figure 4:** Treemap of assists made by each player and divided by positon played
 
 
 Last but not least is the stacked bar chart utilized to show the points breakdown of each player on each team. It's nice to see a simple bar chart displaying the total points of each team over the season, but adding in a breakdown of what points were scored by each player adds this whole new dimension to a relatively plain visualization. See Figure 5 for the final result.
 
 <img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
 
-**Figure 5:**
+**Figure 5:** Stacked bar chart indicating a teams total points scored and by what player
 
 <br><br>
 ## Conclusion
