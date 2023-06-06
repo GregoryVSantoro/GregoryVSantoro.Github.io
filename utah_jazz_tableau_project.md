@@ -562,8 +562,10 @@ The first objective was to create an easy way to identify what position is most 
 <img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
 
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
+
 <br>
 The next objective was to highlight the relationship between points, assists, and rebounds made by all players. A scatter plot is a great tool to show the relationship between two variables, but what about showing a relationship between three? This is where a bubble plot comes in handy. This can show a third variable using the size of each marker. On the x-axis we have points scored, y-axis has assists, and the sum of "TRB," or total rebounds, is placed in the size card. All resulting in Figure 2, where we can see a portion of the resulting bubble plot.
+
 <br>
 <img alt ="bubble plot showing points, assists, and rebounds" src="/images/utah_jazz_tableau_project/nba_bubble_plot.png">
 
@@ -576,14 +578,13 @@ The third objective involves the use of a [treemap](https://en.wikipedia.org/wik
 </center>
 
 **Figure 3:** Marks card settings for treemap
-
+<br>
 
 <img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
 
 **Figure 4:** Treemap of assists made by each player and divided by positon played
 
-
-
+<br>
 Last but not least is the stacked bar chart utilized to show the points breakdown of each player on each team. It's nice to see a simple bar chart displaying the total points of each team over the season, but adding in a breakdown of what points were scored by each player adds this whole new dimension to a relatively plain visualization. See Figure 5 for the final result.
 
 <img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
