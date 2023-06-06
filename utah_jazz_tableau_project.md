@@ -66,7 +66,7 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 <br>
 ## Analysis
 
-  ### Objectives:
+  # Objectives:
   
    - Easily identify 3-pt percentage by position on each team
    
