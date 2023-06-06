@@ -66,6 +66,17 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 <br>
 ## Analysis
 
+  ### Objectives:
+  
+   - Easily identify 3-pt percentage by position on each team
+   
+   - Highlight total points, assists, and rebounds scored by each player
+   
+   - Breakdown assists by positon and individual players
+   
+   - Showcase the total points scored by each team and players on that team
+
+
 As noted about the data set, there's a total of three rows per player for players who were traded mid-season. Depending on the visualization being created, this can cause a few issues.  For example, say I wanted to showcase the 3 point field goal percentage, the total 3 point shots made versus how many were attempted, broken up by the positions on each team represented in the data set. Table 1 shows this, but if you know anything about basketball you can probably spot something amiss when you start to scroll right. If you're like me and haven't a clue (how did I land this interview? &#128579;) then I'll point it out. There are a total of 12 positions listed in Table 1. Basketball only has [five positions](https://jr.nba.com/basketball-positions/). The reason 12 positions are showing is because players who are traded may end up playing a different position on their new team. This can be addressed by filtering out these hyphenated positions with Tableau's filter tool. Another filter necessary for most of the analysis was the fact there was a team labeled "TOT" that was a summation of all team data, but not actually a team.
 
 <br>
