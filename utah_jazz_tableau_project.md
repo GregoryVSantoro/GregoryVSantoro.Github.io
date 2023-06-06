@@ -579,7 +579,7 @@ The third objective involves the use of a [treemap](https://en.wikipedia.org/wik
 
 text
 
-<img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.png">
+<img alt ="" src="images/utah_jazz_tableau_project/NBA 2021-2022 Season Analysis.jpeg">
 
 **Figure 4:**
 
