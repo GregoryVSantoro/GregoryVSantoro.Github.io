@@ -1,10 +1,3 @@
-<!--
----
-title:
-author: Gregory Santoro
-date: 2023-05-30
----
--->
 # From the Bench to the Dashboard: Analyzing the Utah Jazz with Tableau
 <br>
 ![Utah Jazz Tableau Project Cover Image](images/utah_jazz_tableau_project/utah_jazz_tableau_project_cover_image.png)
