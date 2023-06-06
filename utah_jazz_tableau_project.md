@@ -55,11 +55,13 @@ _*This statistic adjusts for the fact that a 3-point field goal is worth one mor
 <br><br>
 ## Key Highlights
 
+- 
+
 
 <br><br>
 ## Analysis
 
-As noted about the data set, there's a total of three rows per player for players who were traded mid-season. Depending on the visualization being created, this can cause a few issues.  For example, say I wanted to showcase the 3 point field goal percentage, the total 3 point shots made versus how many were attempted, broken up by the positions on each team represented in the data set. Table 1 shows this, but if you know anything about basketball you can probably spot something amiss when you start to scroll right. If you're like me and haven't a clue (how did I land this interview? &#128579;) then I'll point it out. There are a total of 12 positions listed in Table 1. Basketball only has [five positions](https://jr.nba.com/basketball-positions/). The reason 12 positions are showing is because players who are traded may end up playing a different position on their new team. This can be addressed in a few different ways, but we'll get to that later in the analysis.
+As noted about the data set, there's a total of three rows per player for players who were traded mid-season. Depending on the visualization being created, this can cause a few issues.  For example, say I wanted to showcase the 3 point field goal percentage, the total 3 point shots made versus how many were attempted, broken up by the positions on each team represented in the data set. Table 1 shows this, but if you know anything about basketball you can probably spot something amiss when you start to scroll right. If you're like me and haven't a clue (how did I land this interview? &#128579;) then I'll point it out. There are a total of 12 positions listed in Table 1. Basketball only has [five positions](https://jr.nba.com/basketball-positions/). The reason 12 positions are showing is because players who are traded may end up playing a different position on their new team. This can be addressed by filtering out these hyphenated positions with Tableau's filter tool. Another filter necessary for most of the analysis was the fact there was a team labeled "TOT" that was a summation of all team data, but not actually a team.
 
 <br>
 **Table 1:** 3-point percentage of each position on each team
@@ -537,6 +539,8 @@ As noted about the data set, there's a total of three rows per player for player
     </table>
 </div>
 
----
+<br>
+
+The first task was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color to it will help 
 
 To see the full story on Tableau, click [here](https://public.tableau.com/views/nba21-22/NBA2021-2022SeasonAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)! And if you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
