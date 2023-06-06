@@ -559,6 +559,7 @@ As noted about the data set, there's a total of three rows per player for player
 
 The first objective was to create an easy way to identify what position is most efficient at scoring 3-pointers for each team. To do this a table will suffice, but adding color can help make it that much easier to navigate and quickly decipher the information one may need. Figure 1 shows the a snippet of the final product. All that was needed to make this is placing player positions in the column shelf, teams in the row shelf, and placing the 3-pt percentage as an averge in the color and text cards. And voilà, an easily created table that is quick to read!
 
+
 <img alt="snippet of 3-pt percentage color table" src="/images/utah_jazz_tableau_project/nba_color_table.png">
 
 **Figure 1:** Snippet of final product for the highlight table of a team's positions 3-pt percentage
@@ -570,17 +571,20 @@ The next objective was to highlight the relationship between points, assists, an
 
 **Figure 2:** Bubble plot showing relation between points, assists, and rebounds scored
 
+
 The third objective involves the use of a [treemap](https://en.wikipedia.org/wiki/Treemapping). This visualization effectively shows hierarchical data. The aim was to show player's assist points divided by position. Figure 3 shows the necessary settings for the marks card and Figure 4 is a portion of the end result.
 
 <center>
-<img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 75%">
+<img alt="treemap settings" src="images/utah_jazz_tableau_project/treemap_settings.png" style="width: 75%;">
 </center>
 
 **Figure 3:** Marks card settings for treemap
 
+
 <img alt="treemap of assists" src="images/utah_jazz_tableau_project/nba_treemap.png">
 
 **Figure 4:** Treemap of assists made by each player and divided by positon played
+
 
 
 Last but not least is the stacked bar chart utilized to show the points breakdown of each player on each team. It's nice to see a simple bar chart displaying the total points of each team over the season, but adding in a breakdown of what points were scored by each player adds this whole new dimension to a relatively plain visualization. See Figure 5 for the final result.
@@ -589,7 +593,7 @@ Last but not least is the stacked bar chart utilized to show the points breakdow
 
 **Figure 5:** Stacked bar chart indicating a teams total points scored and by what player
 
-<br><br>
+<br>
 ## Conclusion
 
 Sports generate so much data that they're a statistics gold mine. There's a lot of information that can be gleaned from such countless data and knowing how to make use of it can really make a difference for a team's success moving forward into the next season. I'm still not a basketball fan or expert, but I certainly can appreciate players like Nikola Jokić or Trae Young for being at the absolute top of their game.
