@@ -63,7 +63,7 @@ As noted about the data set, there's a total of three rows per player for player
 
 **Table 1:** 3-point percentage of each position on each team
 
-<div style="width: 400px; height: 200px; overflow: scroll;">
+<div style="width: 500px; height: 250px; overflow: scroll;">
   <table>
     <thead>
       <tr>
@@ -535,6 +535,5 @@ As noted about the data set, there's a total of three rows per player for player
         <td></td>
         <td></td>
       </tr>
-    </tbody>
   </table>
 </div>
