@@ -5,3 +5,21 @@
 ---
 
 ## Introduction
+<br>
+The set up for this project is that I'm a fresh, new data analyst intern for IBM in their human resources department. The overall goal of my tasks are to answer the questions posed to me by management and use **[R](https://www.r-project.org/)** to do so.
+
+<br>
+
+## About The Data
+<br>
+text
+
+<br>
+
+##
+<br>
+text
+
+<br>
+
+##
