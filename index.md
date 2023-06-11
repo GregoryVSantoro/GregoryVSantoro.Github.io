@@ -5,7 +5,7 @@
 ### Projects
 
 ---
-### [](/r_project_module9.md)
+### [Human Resources Analytics](/r_project_module9.md)
 ![hr_cover_image](images/daa_module8/hr_cover_image.jpg)
 
 coming_soon_
