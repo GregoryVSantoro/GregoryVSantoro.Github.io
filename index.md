@@ -5,7 +5,7 @@
 ### Projects
 
 ---
-### [Analyzing Human Resources Data through R]<!--(/r_project_module9.md)-->
+### [Analyzing Human Resources Data through R]<!--(/r_project_module8.md)-->
 ![hr_cover_image](images/daa_module8/hr_cover_image.jpg)
 
 coming_soon_
