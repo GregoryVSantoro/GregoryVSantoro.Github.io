@@ -10,12 +10,12 @@
 
 coming_soon_
 
----
-### [Metals R Us - Python Project]<!--(/python_project_module7.md)-->
+<!-- ---
+### [Metals R Us - Python Project](/python_project_module7.md)
 ![python project cover image](images/daa_module7/python_module_project_cover_image.jpg)
 
 coming_soon_
-
+-->
 ---
 ### [From the Bench to the Dashboard: Analyzing for the Utah Jazz with Tableau](/utah_jazz_tableau_project.md)
 ![daa intermediate tableau project cover image](images/utah_jazz_tableau_project/utah_jazz_tableau_project_cover_image.png)
