@@ -6,19 +6,22 @@
 
 ## Introduction
 
-The set up for this project is that I'm a fresh, new data analyst intern for IBM in their human resources department. The overall goal of my tasks are to answer the questions posed to me by management and use **[R](https://www.r-project.org/)** to do so.
+The set up for this project is that I'm a fresh, new data analyst intern for IBM in their human resources department. The overall goal of my tasks are to answer the questions posed to me by management and use **[R](https://www.r-project.org/)** and **[R Studio](https://posit.co/download/rstudio-desktop/)**, a popular IDE, to do so.
 
 <br>
 
 ## About The Data
 
-text
+The data for this project can be found **[here](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)**. It's a fictional data set created by IBM data scientists.
 
 <br>
 
 ## Key Highlights
 
-text
+- 1
+- 2
+- 3
+- 4
 
 <br>
 
