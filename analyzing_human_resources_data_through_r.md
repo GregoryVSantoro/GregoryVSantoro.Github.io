@@ -83,7 +83,7 @@ Moving on, the next task was to explore the data and determine if recent layoffs
 
 <br>
 
-The median value for the ages of those who were laid off is lower than those who were not, but not by much. To test this further and find out if there's any significance, a **[Welch's t-test](images/daa_module8/r_boxplot_result.png)** can be performed in R using the **[t.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test)** function. After creating two new sample variables, yes_age and no_age, the function can be used and is seen in Figure 7 and the results in Figure 8. It can be seen in Figure 8 that the p-value is less than 0.05 indicating there is a statistical significant difference between the two samples.
+The median value for the ages of those who were laid off is lower than those who were not, but not by much. To test this further and find out if there's any significance, a **[Welch's t-test](images/daa_module8/r_boxplot_result.png)** can be performed in R using the **[t.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test)** function. After creating two new sample variables, yes_age and no_age, the function can be used and is seen in Figure 7 and the results in Figure 8. It can be seen in Figure 8 that the p-value is less than 0.05 indicating there is a statistical significant difference between the two samples. We can also see here that the median ages are 33.6 for those who where laid off and 37.5 for those who were retained. No ageism seems to be at play here.
 
 <br>
 
@@ -102,6 +102,8 @@ The median value for the ages of those who were laid off is lower than those who
 **Figure 8:** Welch t-test result
 
 <br>
+
+My last task was to exercise my linear regression skills in R with creating a model to predict monthly income based on age.
 
 ## Conclusion
 
