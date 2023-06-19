@@ -43,13 +43,19 @@ The first step in my analysis after loading in my csv file is answering the ques
 
 <br>
 
-After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots.
+After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots. Again, R makes this very easy to do thanks to the **[pairs](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/pairs)** function. Figure 3 shows the use of the pairs function and Figure 4 shows the resulting scatter plots.
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_pairs_function.png">
+
+**Figure 3:**
 
 <br>
 
 <img alt ="" src="images/daa_module8/r_scatterplots.png">
 
-**Figure 3:** scatter plots for monthly income, age, total working years, and education
+**Figure 4:** scatter plots for monthly income, age, total working years, and education
 
 <br>
 
