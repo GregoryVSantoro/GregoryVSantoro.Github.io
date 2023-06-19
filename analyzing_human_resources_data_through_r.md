@@ -63,7 +63,7 @@ There's a positive correlation between age and montly income. There's also a str
 
 <br>
 
-Moving on, the next task was to explore the data and determine if recent layoffs included a majority of older employees. One of the employees who was affected is claiming ageism was at play. To determine if this was truly the case a boxplot of the age distribution of those who were laid off and those who were retained can be utilized. You may have already guessed it, but to do this all that's needed is R's **[boxplot](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/boxplot)** function.
+Moving on, the next task was to explore the data and determine if recent layoffs included a majority of older employees. One of the employees who was affected is claiming ageism was at play. To determine if this was truly the case a box plot of the age distribution of those who were laid off and those who were retained can be utilized. You may have already guessed it, but to do this all that's needed is R's **[boxplot](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/boxplot)** function. Figure 5 shows how the function was used and Figure 6 shows the resulting box plot.
 
 <br>
 
@@ -80,6 +80,26 @@ Moving on, the next task was to explore the data and determine if recent layoffs
 <br>
 
 **Figure 6:** resulting box plot
+
+<br>
+
+The median value for the ages of those who were laid off is lower than those who were not, but not by much. To test this further and find out if there's any significance, a **[Welch's t-test](images/daa_module8/r_boxplot_result.png)** can be performed in R using the **[t.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test)** function. 
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_ttest.png">
+
+<br>
+
+**Figure 7:** Welch t-test function
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_welch_result.png">
+
+<br>
+
+**Figure 8:** Welch t-test result
 
 <br>
 
