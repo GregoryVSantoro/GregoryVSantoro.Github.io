@@ -27,7 +27,7 @@ The data for this project can be found **[here](https://www.kaggle.com/datasets/
 
 ## Analysis
 
-The first step in my analysis is answering the question if any of the demographics data [correlate](https://en.wikipedia.org/wiki/Correlation). This can be done quickly and easiliy in R with the [`cor`](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor) function
+The first step in my analysis is answering the question if any of the demographics data [correlate](https://en.wikipedia.org/wiki/Correlation). This can be done quickly and easiliy in R with the [cor](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor) function. To pass only the data from the columns I want to analyze I'll use [indexing](https://www.geeksforgeeks.org/how-to-select-dataframe-columns-by-index-in-r/#) and create a dataframe. The final 
 
 <br>
 
