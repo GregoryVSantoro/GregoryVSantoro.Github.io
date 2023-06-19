@@ -45,6 +45,8 @@ The first step in my analysis after loading in my csv file is answering the ques
 
 After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots. Again, R makes this very easy to do thanks to the **[pairs](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/pairs)** function. Figure 3 shows the use of the pairs function and Figure 4 shows the resulting scatter plots.
 
+There's a positive correlation between age and montly income. There's also a strong, positive correlation between age and total working years.
+
 <br>
 
 <img alt ="" src="images/daa_module8/r_pairs_function.png">
@@ -58,6 +60,26 @@ After identifying a handful of strong relationships using the cor function, we c
 <br>
 
 **Figure 4:** scatter plots for monthly income, age, total working years, and education
+
+<br>
+
+Moving on, the next task was to explore the data and determine if recent layoffs included a majority of older employees. One of the employees who was affected is claiming ageism was at play. To determine if this was truly the case a boxplot of the age distribution of those who were laid off and those who were retained can be utilized. You may have already guessed it, but to do this all that's needed is R's **[boxplot](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/boxplot)** function.
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_boxplot.png">
+
+<br>
+
+**Figure 5:** boxplot function
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_boxplot_result.png">
+
+<br>
+
+**Figure 6:** resulting box plot
 
 <br>
 
