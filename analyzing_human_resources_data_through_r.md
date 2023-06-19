@@ -27,7 +27,7 @@ The data for this project can be found **[here](https://www.kaggle.com/datasets/
 
 ## Analysis
 
-The first step in my analysis after loading in my csv file is answering the question if any of the demographics data [correlate](https://en.wikipedia.org/wiki/Correlation). This can be done quickly and easiliy in R with the [cor](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor) function. To pass only the data from the columns I want to analyze I'll use [indexing](https://www.geeksforgeeks.org/how-to-select-dataframe-columns-by-index-in-r/#) and create a new dataframe. The final command used is shown in Figure 1. The results are shown in Figure 2. The closer a value is to 1 or -1 the stronger the relationship is between the two variables. 
+The first step in my analysis after loading in my csv file is answering the question if any of the demographics data [correlate](https://en.wikipedia.org/wiki/Correlation). This can be done quickly and easiliy in R with the [cor](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor) function. To pass only the data from the columns I want to analyze I'll use [indexing](https://www.geeksforgeeks.org/how-to-select-dataframe-columns-by-index-in-r/#) and create a new dataframe. The final command used is shown in Figure 1. The results are shown in Figure 2. The closer a value is to 1 or -1 the stronger the relationship is between the two variables. Relationships such as `age` and `total working years`, `monthly income` and `total working years`, and `age` and `monthly income`, etc. stand out to me.
 
 <br>
 
@@ -43,7 +43,13 @@ The first step in my analysis after loading in my csv file is answering the ques
 
 <br>
 
+After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots.
 
+<br>
+
+<img alt ="" src="images/daa_module8/r_scatterplots.png">
+
+**Figure 3:**
 
 <br>
 
