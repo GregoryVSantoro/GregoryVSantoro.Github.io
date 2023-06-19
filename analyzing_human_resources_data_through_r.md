@@ -105,6 +105,6 @@ The median value for the ages of those who were laid off is lower than those who
 
 ## Conclusion
 
-text
+text_
 
 If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
