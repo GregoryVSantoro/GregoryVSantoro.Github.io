@@ -49,11 +49,13 @@ After identifying a handful of strong relationships using the cor function, we c
 
 <img alt ="" src="images/daa_module8/r_pairs_function.png">
 
-**Figure 3:**
+**Figure 3:** pairs function specifying data and columns from said data to be used and the title of the resulting graph
 
 <br>
 
 <img alt ="" src="images/daa_module8/r_scatterplots.png">
+
+<br>
 
 **Figure 4:** scatter plots for monthly income, age, total working years, and education
 
