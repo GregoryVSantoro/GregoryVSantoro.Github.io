@@ -103,10 +103,28 @@ The median value for the ages of those who were laid off is lower than those who
 
 <br>
 
-My last task was to exercise my linear regression skills in R with creating a model to predict monthly income based on age.
+My last task was to exercise my multivariate linear regression skills in R with creating a model to predict monthly income based on age and total years working. 
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_model2.png">
+
+<br>
+
+**Figure 9:** R code snippet showing the creation of the model
+
+<br>
+
+<img alt ="" src="images/daa_module8/r_model2_results.png">
+
+<br>
+
+**Figure 10:** 
+
+<br>
 
 ## Conclusion
 
-text_
+text
 
 If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
