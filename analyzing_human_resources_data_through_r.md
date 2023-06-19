@@ -89,7 +89,6 @@ The median value for the ages of those who were laid off is lower than those who
 
 <img alt ="" src="images/daa_module8/r_ttest.png">
 
-<br>
 
 **Figure 7:** Welch t-test function
 
@@ -97,7 +96,6 @@ The median value for the ages of those who were laid off is lower than those who
 
 <img alt ="" src="images/daa_module8/r_welch_result.png">
 
-<br>
 
 **Figure 8:** Welch t-test result
 
@@ -109,7 +107,6 @@ My last task was to exercise my multivariate linear regression skills in R with 
 
 <img alt ="" src="images/daa_module8/r_model2.png">
 
-<br>
 
 **Figure 9:** R code snippet showing the creation of the model
 
@@ -117,9 +114,8 @@ My last task was to exercise my multivariate linear regression skills in R with 
 
 <img alt ="" src="images/daa_module8/r_model2_results.png">
 
-<br>
 
-**Figure 10:** 
+**Figure 10:** multivariate linear regression results
 
 <br>
 
