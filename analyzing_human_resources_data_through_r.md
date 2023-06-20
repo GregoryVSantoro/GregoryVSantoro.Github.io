@@ -30,7 +30,7 @@ The data for this project can be found **[here](https://www.kaggle.com/datasets/
 
 ## Analysis
 
-The first step in my analysis after loading in my csv file is answering the question if any of the demographics data **[correlate](https://en.wikipedia.org/wiki/Correlation)**. This can be done quickly and easiliy in R with the **[cor](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)** function. To pass only the data from the columns I want to analyze I'll use **[indexing](https://www.geeksforgeeks.org/how-to-select-dataframe-columns-by-index-in-r/#)** and create a new dataframe. The final command used is shown in Figure 1. The results are shown in Figure 2. The closer a value is to 1 or -1 the stronger the relationship is between the two variables. Relationships such as `Age-TotalWorkingYears`, `MonthlyIncome-TotalWorkingYears`, and `Age-MonthlyIncome`, etc. stand out to me.
+The first step in my analysis after loading in my csv file is answering the question if any of the demographics data **[correlate](https://en.wikipedia.org/wiki/Correlation)**. This can be done quickly and easiliy in R with the **[cor](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)** function. To pass only the data from the columns I want to analyze I'll use **[indexing](https://www.geeksforgeeks.org/how-to-select-dataframe-columns-by-index-in-r/#)** and create a new dataframe. The final command used is shown in **Figure 1**. The results are shown in **Figure 2**. The closer a value is to 1 or -1 the stronger the relationship is between the two variables. Relationships such as `Age-TotalWorkingYears`, `MonthlyIncome-TotalWorkingYears`, and `Age-MonthlyIncome`, etc. stand out to me.
 
 <br>
 
@@ -46,7 +46,7 @@ The first step in my analysis after loading in my csv file is answering the ques
 
 <br>
 
-After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots. Again, R makes this very easy to do thanks to the **[pairs](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/pairs)** function. Figure 3 shows the use of the pairs function and Figure 4 shows the resulting scatter plots.
+After identifying a handful of strong relationships using the cor function, we can learn more about them through scatter plots. Again, R makes this very easy to do thanks to the **[pairs](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/pairs)** function. **Figure 3** shows the use of the pairs function and **Figure 4** shows the resulting scatter plots.
 
 There's a positive correlation between age and montly income. There's also a strong, positive correlation between age and total working years.
 
@@ -65,7 +65,7 @@ There's a positive correlation between age and montly income. There's also a str
 
 <br>
 
-Moving on, the next task was to explore the data and determine if recent layoffs included a majority of older employees. One of the employees who was affected is claiming ageism was at play. To determine if this was truly the case a box plot of the age distribution of those who were laid off and those who were retained can be utilized. You may have already guessed it, but to do this all that's needed is R's **[boxplot](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/boxplot)** function. Figure 5 shows how the function was used and Figure 6 shows the resulting box plot.
+Moving on, the next task was to explore the data and determine if recent layoffs included a majority of older employees. One of the employees who was affected is claiming ageism was at play. To determine if this was truly the case a box plot of the age distribution of those who were laid off and those who were retained can be utilized. You may have already guessed it, but to do this all that's needed is R's **[boxplot](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/boxplot)** function. **Figure 5** shows how the function was used and **Figure 6** shows the resulting box plot.
 
 <br>
 
@@ -83,7 +83,7 @@ Moving on, the next task was to explore the data and determine if recent layoffs
 
 <br>
 
-The median value for the ages of those who were laid off is lower than those who were not, but not by much. To test this further and find out if there's any significance, a **[Welch's t-test](images/daa_module8/r_boxplot_result.png)** can be performed in R using the **[t.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test)** function. After creating two new sample variables, yes_age and no_age, the function can be used and is seen in Figure 7 and the results in Figure 8. It can be seen in Figure 8 that the p-value is less than 0.05 indicating there is a statistical significant difference between the two samples. We can also see here that the median ages are 33.6 for those who where laid off and 37.5 for those who were retained. No ageism seems to be at play here.
+The median value for the ages of those who were laid off is lower than those who were not, but not by much. To test this further and find out if there's any significance, a **[Welch's t-test](images/daa_module8/r_boxplot_result.png)** can be performed in R using the **[t.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test)** function. After creating two new sample variables, `yes_age` and `no_age`, the function can be used and is seen in **Figure 7** and the results in **Figure 8**. It can be seen in **Figure 8** that the p-value is less than 0.05 indicating there is a statistical significant difference between the two samples. We can also see here that the median ages are **33.6** for those who where laid off and **37.5** for those who were retained. No ageism seems to be at play here.
 
 <br>
 
@@ -101,7 +101,7 @@ The median value for the ages of those who were laid off is lower than those who
 
 <br>
 
-My last task was to exercise my multivariate linear regression skills in R with creating a model to predict monthly income based on age and total years working. The function to use here is **[lm](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm)**. Figure 9 shows the R snippet used and Figure 10 shows the results. The p-value again here is less than 0.05 and indicates the results are statistically significant. The R<sup>2</sup> value is showing 60% meaning 40% of the variance in this data cannot be explained by the model. While an R<sup>2</sup> value of 1 would indicate a perfect model, 0.6, or 60%, is still a good indicator there is a significant relationship between these variables. In the case of predicting one's monthly income based on their age and total years working, you could intuitvely predict someones monthly income is greater the older they are and the longer they've worked.
+My last task was to exercise my multivariate linear regression skills in R with creating a model to predict monthly income based on age and total years working. The function to use here is **[lm](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm)**. **Figure 9** shows the R snippet used and **Figure 10** shows the results. The p-value again here is less than 0.05 and indicates the results are statistically significant. The R<sup>2</sup> value is showing **60%** meaning 40% of the variance in this data cannot be explained by the model. While an R<sup>2</sup> value of 1 would indicate a perfect model, 0.6, or 60%, is still a good indicator there is a significant relationship between these variables. In the case of predicting one's monthly income based on their age and total years working, you could intuitvely predict someones monthly income is greater the older they are and the longer they've worked.
 
 <br>
 
