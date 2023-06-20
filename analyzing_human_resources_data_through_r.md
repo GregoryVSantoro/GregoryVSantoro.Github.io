@@ -56,6 +56,7 @@ There's a positive correlation between age and montly income. There's also a str
 
 **Figure 3:** pairs function specifying data and columns from said data to be used and the title of the resulting graph
 
+<br>
 
 <img alt ="" src="images/daa_module8/r_scatterplots.png">
 
