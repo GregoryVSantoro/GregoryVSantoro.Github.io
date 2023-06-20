@@ -53,11 +53,9 @@ There's a positive correlation between age and montly income. There's also a str
 
 **Figure 3:** pairs function specifying data and columns from said data to be used and the title of the resulting graph
 
-<br>
 
 <img alt ="" src="images/daa_module8/r_scatterplots.png">
 
-<br>
 
 **Figure 4:** scatter plots for monthly income, age, total working years, and education
 
@@ -69,7 +67,6 @@ Moving on, the next task was to explore the data and determine if recent layoffs
 
 <img alt ="" src="images/daa_module8/r_boxplot.png">
 
-<br>
 
 **Figure 5:** boxplot function
 
@@ -77,7 +74,6 @@ Moving on, the next task was to explore the data and determine if recent layoffs
 
 <img alt ="" src="images/daa_module8/r_boxplot_result.png">
 
-<br>
 
 **Figure 6:** resulting box plot
 
