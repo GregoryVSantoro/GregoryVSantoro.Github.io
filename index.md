@@ -8,7 +8,7 @@
 ### [Analyzing Human Resources Data through R](/analyzing_human_resources_data_through_r.md)
 ![hr_cover_image](images/daa_module8/hr_cover_image.jpg)
 
-coming_soon_
+Practicing R skills and exploring correlations with a fictional data set created by IBM data scientists.
 
 <!-- ---
 ### [Metals R Us - Python Project](/python_project_module7.md)
