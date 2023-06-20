@@ -122,4 +122,4 @@ My last task was to exercise my multivariate linear regression skills in R with 
 
 R is a very useful and powerful statistic tool. Answering the questions posed to me in this challenge was very easy and quick to complete thanks to R. What did you think of my analysis? Are there any strong relationships I missed or that you think would be worth further investigation?
 
-If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)!
+If you have any feedback or comments for me, please feel free to [reach out](https://www.linkedin.com/in/gregory-santoro/)! Or if you want to help keep me [caffeinated](https://www.buymeacoffee.com/gregoryvsantoro), I'd be very grateful!
