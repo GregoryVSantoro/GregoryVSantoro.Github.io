@@ -18,10 +18,12 @@ The data for this project can be found **[here](https://www.kaggle.com/datasets/
 
 ## Key Highlights
 
-- 1
-- 2
-- 3
-- 4
+- There's a correlation between:
+    - `Age-TotalWorkingYears`
+    - `MonthlyIncome-TotalWorkingYears`
+    - `Age-MonthlyIncome`
+- Ageism did not play a role in recent lay offs.
+- The longer someone has worked and the older they are would likely mean they earn more income
 
 <br>
 
@@ -97,7 +99,7 @@ The median value for the ages of those who were laid off is lower than those who
 
 <br>
 
-My last task was to exercise my multivariate linear regression skills in R with creating a model to predict monthly income based on age and total years working. 
+My last task was to exercise my multivariate linear regression skills in R with creating a model to predict monthly income based on age and total years working. The function to use here is **[lm](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm)**. Figure 9 shows the R snippet used and Figure 10 shows the results. The p-value again here is less than 0.05 and indicates the results are statistically significant. The R<sup>2</sup> value is showing 60% meaning 40% of the variance in this data cannot be explained by the model. While an R<sup>2</sup> value of 1 would indicate a perfect model, 0.6, or 60%, is still a good indicator there is a significant relationship between these variables. In the case of predicting one's monthly income based on their age and total years working, you could intuitvely predict someones monthly income is greater the older they are and the longer they've worked.
 
 <br>
 
