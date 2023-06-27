@@ -8,7 +8,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   </ul>
   <br>
   <a href="https://www.linkedin.com/in/gregory-santoro/">LinkedIn Profile</a>
-  <br>
+  <br><br>
   <a href="gregory_santoro_resume.pdf">Resume</a>
   
 theme: jekyll-theme-minimal
